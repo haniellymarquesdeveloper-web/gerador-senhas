@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #7690ce, #a1aec4);
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 460px;
+  background-color: rgba(6, 64, 223, 0.5);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.card h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.password-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.password-box input {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  font-size: 14px;
+  color: #92abe0;
+  background: white;
+}
+
+.password-box button {
+  border: none;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #10daf5;
+  color: #fdfdfd;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.password-box button:hover {
+  transform: translateY(-1px);
+}
+
+.option-group {
+  margin-bottom: 22px;
+}
+
+.range-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.option-group input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e2e8f0;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.generate-btn {
+  width: 100%;
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
+  background: white;
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.generate-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
